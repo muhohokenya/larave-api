@@ -18,4 +18,5 @@ jobs:
           script: |
                 cd larave-api
                 git pull origin main
-                ./vendor/bin/sail up
+                ls -la
+#                ./vendor/bin/sail up
