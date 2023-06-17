@@ -16,6 +16,6 @@ jobs:
           key: ${{ secrets.HOST_PRIVATE_KEY }}
           port: 22
           script: |
-                cd /larave-api
+                cd larave-api
                 git pull origin master
                 ./vendor/bin/sail up
