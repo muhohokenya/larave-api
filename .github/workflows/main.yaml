@@ -17,5 +17,5 @@ jobs:
           port: 22
           script: |
                 cd larave-api
-                git pull origin master
+                git pull origin main
                 ./vendor/bin/sail up
