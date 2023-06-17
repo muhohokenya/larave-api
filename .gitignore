@@ -22,8 +22,5 @@ yarn-error.log
 /storage/framework/
 /.devops/
 .devops/infra/
-.devops/
-.devops/infra/.terraform/
-.idea
 
 
